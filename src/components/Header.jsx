@@ -1,18 +1,16 @@
 import React, { useRef } from 'react'
 import '../style/header.css'
-import left_arrow_small from '../images/left_arrow_small.png'
 import { NavLink } from 'react-router-dom'
 import Cocktail from '../images/Сocktail.png'
 import usa from '../images/usa.svg'
 import icon_bag from '../images/icon_bag.svg'
-import arrow_right_small from '../images/arrow_right_small.svg'
 import burger from '../images/burger.svg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 function Header() {
   let modal = useRef()

@@ -7,7 +7,7 @@ function PdPprice() {
   let qwer = useRef()
 
   function Accordion(e) {
-    if(e.target.id == "plus") {
+    if(e.target.id === "plus") {
       let take_elem = e.target.parentElement.nextElementSibling
       //  console.log(take_elem.id);
       //  e.target.parentElement.nextElementSibling.current.classList.toggle("show_elemen")

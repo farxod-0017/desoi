@@ -9,7 +9,7 @@ function Banner() {
             <div className="banner_text">
                 <h3>/de · swa/</h3>
                 <h2>Ut enim ad minim veniam, quisnostrud exercitation ullamco</h2>
-                <a href="">About us</a>
+                <a href="#!">About us</a>
             </div>
         </div>
     </section>

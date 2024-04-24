@@ -54,9 +54,9 @@ function Footer() {
             <div className="footer_bottom">
                 <h4>/de · swa/</h4>
                 <h5>®2021 Сocktail</h5>
-                <a href="">Privacy policy</a>
-                <a href="">Terms of use</a>
-                <a href="">AMASS</a>
+                <a href="#!">Privacy policy</a>
+                <a href="#!">Terms of use</a>
+                <a href="#!">AMASS</a>
             </div>
         </div>
     </footer>

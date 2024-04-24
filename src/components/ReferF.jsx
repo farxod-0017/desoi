@@ -10,7 +10,7 @@ function ReferF() {
             <div className="banner_text">
                 <h3>Spread the word</h3>
                 <h2>Refer a friend</h2>
-                <a href="">Refer now</a>
+                <a href="#!">Refer now</a>
             </div>
         </div>
     </section>
