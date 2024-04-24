@@ -1,0 +1,30 @@
+.join h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin: 53px auto 49px;
+}
+.join_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.join_grid img {
+    width: 100%;
+}
+
+@media(max-width:1000px) {
+    .join h1 {
+        font-size: 55px;
+        margin: 22px auto 18px;
+    }
+}
+@media (max-width: 700px) {
+    .join h1 {
+        font-size: 40px;
+    }
+    .join_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

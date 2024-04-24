@@ -1,0 +1,49 @@
+.variety {
+    padding-top: 40px;
+}
+.variety h1 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 62px;
+} 
+.variety .shopText_img {
+    display: none;
+}  
+.variety_grid {
+    display: flex;
+}
+.variety_grid_mobile {
+    display: none;
+}
+.variety_grid_mobile .shopBottle {
+    max-width: 480px;
+    width: 100%;
+    padding: 67px 47px 23px;
+}
+.variety_grid .shopText {
+    background-color: white;
+}
+
+
+@media(max-width:800px) {
+    .variety_grid {
+        display: none;
+    } 
+    .variety_grid_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    .variety h1 {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 27px;
+    }  
+    .variety_grid_mobile .shopBottle {
+        border-left: none;
+        border-bottom: none;
+    }
+}

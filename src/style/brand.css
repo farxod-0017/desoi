@@ -1,0 +1,43 @@
+.brand_card {
+    width: 480px;
+    padding: 40px 80px;
+}
+.brand_card img {
+    display: block;
+    margin: 0 auto;
+}
+.brand_card p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    text-align: center;
+    margin:  24px 0;
+}
+.brand_card #brand_logo {
+    margin-top: 40px;
+}
+
+
+@media(max-width:999px) {
+    .brand_card {
+        margin-left: -487px;
+        padding: 40px 32px;
+        width: 375px;
+    }
+}
+@media (max-width: 900px) {
+    .brand_card {
+        margin-left: -390px;
+        width: 350px;
+    }
+}
+@media (max-width: 700px) {
+    .brand_card {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 600px) {
+    .brand_card {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,505 @@
+.pdpHero {
+    padding: 80px 0 94px;
+    background: linear-gradient(90deg, rgba(255, 251, 246, 1)48%, white 50%);
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+}
+
+.pdpHero_wrap {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.mySwiperPdP .swiper-slide {
+    /* text-align: center;
+    font-size: 14px; */
+    /* background: #080808; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 7px;
+
+}
+.PdPswiper {
+    max-width: 480px;
+    width: 100%;
+    position: relative;
+    scale: 1;
+}
+.mySwiperPdP .swiper-button-next::before  {
+    content: url("../images/Arrow_right.png");
+    z-index: 10;
+}
+.mySwiperPdP .swiper-button-next {
+    position: fixed;
+    top: 655px;
+    right: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.mySwiperPdP .swiper-button-prev::before  {
+    content: url("../images/Arrow\ _left.png");
+}
+.mySwiperPdP .swiper-button-prev {
+    position: fixed;
+    top: 655px;
+    left: 100px;
+}
+.mySwiperPdP .swiper-pagination-bullet-active {
+    background-color: black;
+}
+.mySwiperPdP .swiper-pagination {
+    position: fixed;
+    bottom: 0px;
+    left: 160px;
+    width: 120px;
+    height: 20px;
+}
+
+.pdpInfo {
+    max-width: 396px;
+    width: 100%;
+}
+.pdpInfo h3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.pdpInfo h2 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71.04px;
+    text-align: left;
+    margin: 8px 0;
+}
+.pdpInfo p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.06px;
+    text-align: left;
+}
+.starInfo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid rgba(203, 203, 203, 1)
+}
+.pdpInfo h5, li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.06px;
+    text-align: left;
+}
+.pdpInfo h5 {
+    margin: 16px 0 26px;
+}
+.share {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+    border-top: 1px solid rgba(203, 203, 203, 1);
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+    padding: 16px 0;
+}
+.shTc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+.shTc h4 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+/* PdP Price */
+
+.pdpPrice {
+    max-width: 396px;
+    width: 100%;
+}
+.pdpPrice h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 39.01px;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+    padding-bottom: 16px;
+}
+.pdpPrice h2 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 16px 0 19px;
+}
+.pdpPrice .ingrd {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+}
+.pdpPrice p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0 16px;
+}
+.number {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+}
+.check {
+    width: 100%;
+    border-top: 1px solid rgba(203, 203, 203, 1);
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+    padding: 16px 0;
+}
+.one {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.one h2 {
+   text-transform: uppercase;
+}
+.one input {
+    width: 24px;
+    height: 24px;
+}
+.pdpPrice h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+    margin: 16px 0 8px;
+}
+.pdpPrice button {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: black;
+    text-transform: uppercase;
+}
+.accor {
+    padding: 8px 0;
+    width: 100%;
+}
+.element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.element span {
+    width: 16px;
+    height: 16px;
+    display: block;
+    cursor: pointer;
+    font-weight: 500;
+}
+.element span::after {
+    content: "+";
+    display: block;
+    font-size: 22px;
+}
+.elem_text {
+    display: none;
+}
+.show_element {
+    display: block; 
+}
+
+.replace_sign::after {
+    content: "-" !important;
+    display: block;
+    font-weight: 400;
+    scale: 1.6;
+}
+
+.pdpHero_wrap_mini {
+    display: none;
+}
+.pdpHero_wrap_mini_text {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+}
+.pdpHero_wrap_mini_swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 251, 246, 1)50%, white 50%);
+}
+.pdpHero_content_mobile {
+    display: none;
+}
+
+  /* benefit section styles */
+
+.benefit_swiper {
+    padding: 80px 0 79px;   
+}
+.benefit_text {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto 39px;
+}
+.benefit_text h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71.04px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.benefit_text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+}
+.benefit_text p span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.benefit_card {
+    max-width: 400px;
+    width: 100%;
+}
+.benefit_card img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+.benefit_card h4 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.84px;
+    text-align: center;
+    margin: 24px auto 18px;
+}
+.benefit_card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+}
+.benefit_swiper h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+.mySwiperBenefit .swiper-pagination {
+    width: 70px;
+    display: none;
+}
+
+
+
+
+
+@media(max-width:1200px) {
+    .mySwiperPdP .swiper-slide img {
+        width: 430px;
+        height: 550px;
+    }
+    .mySwiperPdP .swiper-button-next {
+        top: 546px;
+    }
+    .mySwiperPdP .swiper-button-prev {
+        top: 546px;
+    }
+}
+@media(max-width:1050px) {
+    .pdpHero_wrap {
+        display: none;
+    }
+    .pdpHero_wrap_mini {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .pdpHero {
+        background: white;
+        padding-top: 0;
+    }
+    .benefit_card img {
+        width: 160px;
+        height: 160px;
+    }
+  
+}
+@media(max-width:800px) {
+    .benefit_card {
+        width: 280px;
+        /* margin-left: 30px; */
+        margin-left: -200px;
+    }
+}
+@media(max-width:730px) {
+    .benefit_card {
+        /* margin-left: 30px; */
+        margin-left: -140px;
+    }
+}
+@media(max-width:600px) {
+    .pdpHero_wrap_mini_text {
+        display: none;
+    }
+    .pdpHero_content_mobile {
+        display: flex;
+        justify-content: center;
+    }
+    .pdpHero_wrap_mini_swiper {
+        background: linear-gradient(180deg, rgba(255, 251, 246, 1) 50%, white 50%);
+    }
+    .mySwiperPdP .swiper-slide img {
+        width: 375px;
+        height: 475px;
+    }
+    .mySwiperPdP .swiper-button-next {
+        top: 473px;
+    }
+    .mySwiperPdP .swiper-button-prev {
+        top: 473px;
+    }
+
+    .benefit_swiper {
+        padding: 40px 0 88px;
+    }
+    .benefit_card {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .benefit_text h2 {
+        font-size: 28px;
+        line-height: 41.04px;
+        margin-bottom: 16px;
+    }
+    .benefit_text p {
+        font-size: 12px;
+        line-height: 16.8px;
+    }
+    .benefit_text {
+        margin: 0px auto 15px;
+    }
+    .benefit_card img {
+        width: 120px;
+        height: 120px;
+    }
+    .benefit_swiper h5 {
+        display: none;
+    }
+    .benefit_swiper {
+        position: relative;
+        scale: 1;
+    }
+    .mySwiperBenefit .swiper-pagination {
+        display: flex;
+        position: fixed;
+        bottom: 40px;
+        left: 45%;
+    }
+    .swiper-pagination-bullet-active {
+        background-color: black;
+    }
+}
+@media(max-width:480px) {
+    .mySwiperPdP .swiper-pagination {
+        left: 33%;
+    }
+    .mySwiperPdP .swiper-button-next {
+       right: 0;
+    }
+    .mySwiperPdP .swiper-button-prev {
+        top: 473px;
+        left: 0;
+    }
+}
+@media (max-width: 380px) {
+    .mySwiperPdP .swiper-pagination {
+        left: 29%;
+    }
+}
+@media(max-width:400px) {
+    .pdpInfo h3 {
+        text-transform: uppercase;
+    }
+    .pdpPrice h1 {
+        font-size: 24px;
+        line-height: 29.01px;
+        padding: 16px 0;
+    }
+    .pdpInfo h2 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+    .pdpPrice h2 {
+        font-size: 12px;
+        line-height: 14.04px;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+    }
+    .element h6 {
+        text-transform: uppercase;
+    }
+    .share h6 {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .shTc {
+        justify-content: center;
+        margin-top: 24px;
+    }
+    .pdpHero {
+        padding-bottom: 41px;
+    }
+    .shTc h4 {
+        text-transform: uppercase;
+    }
+}

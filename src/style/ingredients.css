@@ -1,0 +1,111 @@
+.ingrds {
+    padding: 80px 0;
+    background: rgba(255, 251, 246, 1);
+}
+.ingrds_card {
+    max-width: 719px;
+    width: 98%;
+    margin: 0px auto 40px;
+}
+.ingrds_card h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ingrds_card p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    text-align: center;
+    margin: 46px 0 16px;
+}
+.ingrds_card a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: block;
+    width: 211px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: black;
+}
+.ingrds_card a:hover {
+    color: rgba(187, 107, 30, 1);
+}
+
+.ingrds_grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.grid_card {
+    max-width: 227px;
+    width: 100%;
+    padding: 16px 0 17px;
+}
+.grid_card img {
+    display: block;
+    margin: 0 auto 16px;
+}
+.grid_card h4 {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+#IgEg {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 20px auto 0;
+    display: none;
+    color: black;
+}
+#IgEg:hover {
+    color: rgba(187, 107, 30, 1);
+}
+
+
+@media(max-width:1000px) {
+    .ingrds_card h2 {
+        font-size: 57px;
+    }
+    .ingrds_grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media(max-width:700px) {
+    .ingrds_card h2 {
+        font-size: 40px;
+    }
+    .ingrds_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:550px) {
+    .ingrds {
+        padding: 40px 0 45px;
+    }
+    .ingrds_card p {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0px 0 20px;
+    }
+    .ingrds_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #IgEg {
+        display: block;
+    }
+    .ingrds_card a {
+        display: none;
+    }
+}

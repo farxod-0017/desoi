@@ -1,0 +1,57 @@
+.light_grid {
+    display: flex;
+    justify-content: start;
+}
+.light_wrap {
+   display: flex;
+   justify-content: start;
+}
+.light_wrap .shopBottle {
+    max-width: 480px;
+    width: 50%;
+}
+.light_wrap .shopCard {
+    max-width: 480px;
+    width: 50%;
+}
+.light_wrap .shopBottle .new_round {
+    display: flex;
+}
+
+
+@media(max-width:1000px) {
+    .light_grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .light_grid .shopText {
+        max-width: 684px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .light_wrap .shopCard {
+       height: auto;
+    }
+    .light_wrap .shopCard h4 {
+        font-size: 51px;
+        line-height: 57.6px;
+    }
+    .light_wrap .shopBottle .new_round {
+        width: 60px;
+        height: 60px;
+    }
+    .light_wrap .new_round {
+        top: -35px;
+        right: -35px;
+    }
+}
+@media (max-width: 500px) {
+    .light_wrap .shopCard h4 {
+        font-size: 32px;
+        line-height: 35.6px;
+    }
+    .light_wrap .shopBottle .new_round {
+        width: 48px;
+        height: 48px;
+    }
+}

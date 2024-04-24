@@ -1,0 +1,131 @@
+.seller_card {
+    max-width: 355px;
+    width: 98%;
+    padding: 0 20px 4px;
+    margin-left: -330px;
+}
+.seller_card img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.seller_card h3 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.24px;
+    text-align: center;
+    margin: 16px auto 15px;
+}   
+.seller_card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+}
+.seller_card a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    display: block;
+    margin:  16px auto 0;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+}
+.seller_card a:hover {
+    color: rgba(187, 107, 30, 1);
+}
+
+/*  */
+.mySwiperSeller .swiper {
+    width: 100%;
+    height: 100%;
+}
+.mySwiperSeller .swiper-slide {
+    /* text-align: center;
+    font-size: 14px; */
+    /* background: #080808; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 7px;
+}
+
+.mySwiperSeller .swiper-button-next::before  {
+    content: url("../images/Arrow_right.png");
+    display: none;
+    position: fixed;
+    top: 89px;
+    right: 40px;
+}
+.mySwiperSeller .swiper-button-prev::before  {
+    content: url("../images/Arrow\ _left.png");
+    display: none;
+    position: fixed;
+    top: 89px;
+    left: 40px;
+}
+
+
+@media(max-width:1300px) {
+    .seller_card {
+        margin-left: 0px;
+    }
+}
+@media(max-width:1050px) {
+    .seller_card h3 {
+        font-size: 20px;
+        line-height: 22.24px;
+        margin: 16px auto 15px;
+    }
+    .seller_card a {
+        font-size: 12px;
+        line-height: 14.07px;
+    }
+    .bestSellers h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:650px) {
+    .seller_card {
+        margin-left: -302px;
+    }
+
+    .bestSellers h1 {
+        margin-bottom: 0px;
+    }
+    .mySwiperSeller .swiper-button-next::before  {
+        display: flex;
+    }
+    .mySwiperSeller .swiper-button-prev::before  {
+        display: flex;
+    }
+}
+@media(max-width:550px) {
+    .seller_card {
+        margin-left: -240px;
+    }
+}
+@media(max-width: 450px) {
+    .seller_card {
+        margin-left: -190px;
+    }
+    .mySwiperSeller .swiper-button-next::before  {
+        top: 89px;
+        right: 16px;
+    }
+    .mySwiperSeller .swiper-button-prev::before  {
+        top: 89px;
+        left: 16px;
+    }
+}
+@media(max-width:350px) {
+    .seller_card {
+        margin-left: 0px;
+    }
+}

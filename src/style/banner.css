@@ -1,0 +1,74 @@
+.banner {
+    padding: 118px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_text {
+    max-width: 720px;
+    width: 83%;
+    margin: 0 auto;
+}
+.banner_text h3, a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+.banner_text h2 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin: 35px 0 30px;
+}
+.referF .banner_text h2 {
+    margin: 18px 0 51px;
+}
+.banner_text a {
+    /* font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: center; */
+    text-decoration: underline;
+    display: block;
+    margin: 0 auto;
+}
+
+@media(max-width:900px) {
+    .banner {
+        padding: 74px 0;
+    }
+    .banner_text h2 {
+        font-size: 50px;
+        line-height: 50px;
+        margin: 22px 0 19px;
+    }
+}
+@media(max-width:500px) {
+    .banner {
+        padding: 46px 0;
+    }
+   
+    .banner_text h3, a {
+        font-size: 12px;
+        line-height: 13.07px;
+    }
+    .referF .banner_text h2 {
+        font-size: 45px;
+        line-height: 64px;
+        margin: 9px 0 25.5px;
+    }
+
+    .banner_text h2 {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 43px 0 41.5px;
+    }
+}

@@ -1,0 +1,17 @@
+.shopCard {
+    max-width: 480px;
+    width: 100%;
+    padding: 38px 40px 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shopCard h4 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 89.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}

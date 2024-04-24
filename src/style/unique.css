@@ -1,0 +1,157 @@
+.uniqueSwiper {
+    width: 978px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.unique_img {
+    position: relative;
+    max-width: 560px;
+    width: 50%;
+    height: auto;
+}
+.unique_img img {
+    width: 100%;
+}
+#funkinU {
+    position: absolute;
+    width: 375px;
+    height: 441px;
+    top: 80px;
+    right: -87px;
+}
+.unique_text {
+    max-width: 378px;
+    width: 40%;
+}
+.unique_text h2 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 81.4px;
+    text-align: left;
+}
+.unique_text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin: 40px 0 17px;
+    text-transform: uppercase;
+}
+.unique_text ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+}
+.unique_text h3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.unique {
+    padding: 40px 0 80px;
+    background: rgba(255, 251, 246, 1);
+}
+.unique_top {
+    width: 100%;
+    border-bottom: 1px solid rgba(203, 203, 203, 1);
+    padding-bottom: 17px;
+    display: flex;
+    justify-content: end;
+}
+.unique_top h5 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.63px;
+    letter-spacing: 0.1em;
+    text-align: right;
+    text-transform: uppercase;
+}   
+
+
+.mySwiperUnique .swiper-button-next::after {
+    display: none;
+}
+.mySwiperUnique .swiper-button-next {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+.mySwiperUnique .swiper-button-next::before {
+    content: "Next";
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;   
+}
+.mySwiperUnique .swiper-pagination {
+    display: none;
+} 
+.mySwiperUnique .swiper-button-prev {
+    display: none;
+}
+
+@media(max-width:1000px) {
+    .uniqueSwiper {
+        width: 740px;
+        gap: 30px;
+    }
+    #funkinU {
+        width: 214px;
+        height: 252px;
+        top: 60px;
+        right: -34px;
+    }
+    .unique_text h2 {
+        font-size: 40px;
+        line-height: 41.4px;
+    }
+    .uniqueSwiper {
+        height: 420px;
+    }
+    .mySwiperUnique .swiper-button-next {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media(max-width:700px) {
+    .uniqueSwiper {
+        flex-direction: column;
+        height: 700px;
+        justify-content: start;
+        align-items: flex-start
+    }
+    .unique_wrapper {
+        justify-content: start;
+    }
+}
+@media(max-width:500px) {
+    .swiper-button-next {
+        display: none;
+    }
+    .uniqueSwiper {
+        gap: 16px;
+    }
+    .unique_text h4 {
+        margin: 16px 0 17px;
+    }
+    .unique_text h3 {
+        margin-top: 16px;
+    }
+    .mySwiperUnique .swiper-pagination {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
