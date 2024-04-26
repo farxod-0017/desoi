@@ -8,6 +8,7 @@ import FreshP from '../components/FreshP'
 import yellow from '../images/yellow.png'
 import Faq from '../components/Faq'
 import Join from '../components/Join'
+import AlsoLike from '../components/AlsoLike'
 
 function PdPPage() {
   return (
@@ -19,6 +20,7 @@ function PdPPage() {
       <Unique/>
       <FreshP type="Try this" title="Variety Pack" text="Dont know what to choose? Our variety pack is a three-bottle kit with De Sois Light, Medium and Full bodied flavors. Taste all 3 flavors at once!" img={yellow} />
       <Faq/>
+      <AlsoLike/>
       <Join/>
     </div>
   )

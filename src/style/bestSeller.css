@@ -56,17 +56,23 @@
 }
 
 .mySwiperSeller .swiper-button-next::before  {
-    content: url("../images/Arrow_right.png");
+    content: url("../images/Arrow1.svg");
+    display: block;
+}
+.mySwiperSeller .swiper-button-next {
     display: none;
     position: fixed;
-    top: 89px;
+    top: 100px;
     right: 40px;
 }
 .mySwiperSeller .swiper-button-prev::before  {
-    content: url("../images/Arrow\ _left.png");
+    content: url("../images/Arrow2.svg");
+    display: block;
+}
+.mySwiperSeller .swiper-button-prev {
     display: none;
     position: fixed;
-    top: 89px;
+    top: 100px;
     left: 40px;
 }
 
@@ -99,10 +105,10 @@
     .bestSellers h1 {
         margin-bottom: 0px;
     }
-    .mySwiperSeller .swiper-button-next::before  {
+    .mySwiperSeller .swiper-button-next  {
         display: flex;
     }
-    .mySwiperSeller .swiper-button-prev::before  {
+    .mySwiperSeller .swiper-button-prev  {
         display: flex;
     }
 }
@@ -115,12 +121,12 @@
     .seller_card {
         margin-left: -190px;
     }
-    .mySwiperSeller .swiper-button-next::before  {
-        top: 89px;
+    .mySwiperSeller .swiper-button-next {
+        top: 100px;
         right: 16px;
     }
-    .mySwiperSeller .swiper-button-prev::before  {
-        top: 89px;
+    .mySwiperSeller .swiper-button-prev  {
+        top: 100px;
         left: 16px;
     }
 }

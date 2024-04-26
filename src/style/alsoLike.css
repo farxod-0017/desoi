@@ -1,0 +1,175 @@
+.alsoCard {
+    padding: 43px 51px 25px;
+    border: 1px solid rgba(203, 203, 203, 1);
+    border-right: none;
+    max-width: 480px;
+    width: 100%;
+}
+.alsoCard img {
+    width: 100%;
+}
+.alsoCard h2 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.88px;
+    text-align: center;
+    margin: 28px auto 8px;
+}
+.alsoCard h4 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.alsoStars {
+    margin: 8px auto;
+    display: block;
+}
+.alsoCard {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: center;
+}
+.alsoCard button {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 8px auto 0;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom: 1px solid black;
+    display: block;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+}
+.alsoCard button:hover {
+    color: rgba(187, 107, 30, 1);
+}
+
+.alsoLike {
+    padding: 40px 0 50px;
+    position: relative;
+    scale: 1;
+}
+.alsoLike h1 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 81.4px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mySwiperAlso .swiper {
+    width: 100%;
+    height: 100%;
+}
+.mySwiperAlso .swiper-slide {
+    /* text-align: center;
+    font-size: 14px; */
+    /* background: #080808; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 7px;
+}
+.mySwiperAlso .swiper-button-next::after {
+    display: none;
+}
+.mySwiperAlso .swiper-button-next::before {
+    content: url("../images/Arrow1.svg");
+    display: block;
+}
+.mySwiperAlso .swiper-button-next {
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 16px;
+}
+.mySwiperAlso .swiper-button-prev::after {
+    display: none;
+}
+.mySwiperAlso .swiper-button-prev::before {
+    content: url("../images/Arrow2.svg");
+    display: block;
+}
+.mySwiperAlso .swiper-button-prev {
+    display: none;
+    position: fixed;
+    top: 45px;
+    left: 16px;
+}
+
+
+@media(max-width:900px) {
+    .alsoLike {
+        padding: 24px 0 8px;
+    }
+    .alsoLike h1 {
+        font-size: 28px;
+        line-height: 41.4px;
+        margin-bottom: 24px;
+    }
+    .alsoCard h2 {
+        font-size: 18px;
+        line-height: 20.88px;
+        margin: 16px auto 8px;
+    }
+    .alsoCard h4 {
+        line-height: 14px;
+    }
+}
+@media(max-width:750px) {
+    .alsoCard {
+        padding: 16px 20px 25px;
+        border: 1px solid rgba(203, 203, 203, 1);
+        border-right: none !important;
+        margin-left: -314px;
+    }
+}
+@media(max-width: 600px) {
+    .alsoCard {
+        margin-left: -280px;
+    }
+    .mySwiperAlso .swiper-button-prev {
+        display: flex;
+    }
+    .mySwiperAlso .swiper-button-next {
+        display: flex;
+    }
+}
+@media(max-width: 550px) {
+    .alsoCard {
+        margin-left: -260px;
+    }
+}
+@media(max-width: 500px) {
+    .alsoCard {
+        margin-left: -230px;
+    }
+}
+@media (max-width: 450px) {
+    .alsoCard {
+        margin-left: -210px;
+    }
+}
+
+@media(max-width: 400px) {
+    .alsoCard {
+        margin-left: -150px;
+    }
+}
+@media (max-width: 350px) {
+    .alsoCard {
+        margin-left: -0px;
+    }
+}

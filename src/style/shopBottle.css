@@ -69,5 +69,13 @@
     line-height: 23.8px;
     text-align: center;
     margin: 8px auto 24px;
-}   
+}  
+.shopBottle h2 {
+    font-family: "Philosopher", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.88px;
+    text-align: center;
+    margin-bottom: 8px;
+} 
 

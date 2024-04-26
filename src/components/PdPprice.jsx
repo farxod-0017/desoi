@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import straw from '../images/straw.svg'
 import birch from '../images/birch.png'
 import apricod from '../images/apric.png'
+import { NavLink } from 'react-router-dom'
 
 function PdPprice() {
   let qwer = useRef()
@@ -54,7 +55,7 @@ function PdPprice() {
         </form>
       </div>
       <h5>Free domestic shipping over $50</h5>
-      <button>Add to bag</button>
+      <NavLink to="/bag"><button>Add to bag</button></NavLink>
       <div className="accor" onClick={(e)=>Accordion(e)}>
         <div className="element">
           <h6>Details</h6>

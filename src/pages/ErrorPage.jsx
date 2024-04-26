@@ -2,7 +2,9 @@ import React from 'react'
 
 function ErrorPage() {
   return (
-    <div>ErrorPage</div>
+    <div>
+      <h2>This page is not defined.</h2>
+    </div>
   )
 }
 

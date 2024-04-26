@@ -19,8 +19,8 @@ function Faq() {
                 <div className="faq_text">
                     <h1>Frequently Asked Questions</h1>
                 </div>
-                <div className="faq_accor">
-                    <div className="accor" onClick={(e)=>Accordion(e)}>
+                <div id='f_accor' className="faq_accor" onClick={(e)=>Accordion(e)}>
+                    <div className="accor" >
                         <div className="liner"></div>
                         <div className="element">
                         <h6>What’s inside the bottle?</h6>

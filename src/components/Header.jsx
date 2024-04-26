@@ -27,6 +27,7 @@ function Header() {
     <header>
         <div className="modal" ref={modal} onClick={(e)=>closeModal(e)}>
           <div className="modal_window" id='m_window'>
+                <NavLink><nav>Home</nav></NavLink>
                 <NavLink to="/shop"><select><option value="">Shop</option></select></NavLink>             
                 <nav id='m_window'>About</nav>
                 <select id='m_window'>

@@ -29,7 +29,7 @@
     scale: 1;
 }
 .mySwiperPdP .swiper-button-next::before  {
-    content: url("../images/Arrow_right.png");
+    content: url("../images/Arrow1.svg");
     z-index: 10;
 }
 .mySwiperPdP .swiper-button-next {
@@ -42,7 +42,7 @@
     z-index: 10;
 }
 .mySwiperPdP .swiper-button-prev::before  {
-    content: url("../images/Arrow\ _left.png");
+    content: url("../images/Arrow2.svg");
 }
 .mySwiperPdP .swiper-button-prev {
     position: fixed;

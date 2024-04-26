@@ -44,3 +44,11 @@
 .adap h4 {
     text-transform: uppercase;
 }
+
+@media(max-width:1000px) {
+    .shopText {
+        background-color: white;
+        border: none;
+        
+    }
+}

@@ -12,11 +12,11 @@ import 'swiper/css';
 import {Navigation } from 'swiper/modules';
 
 
-function BestSellers() {
+function BestSellers({title}) {
   return (
     <section className='bestSellers'>
         <div className="container">
-            <h1>Our best sellers</h1>
+            <h1>{title}</h1>
             <div className="sellers_wrapper">
                   <Swiper
                     slidesPerView={4}
