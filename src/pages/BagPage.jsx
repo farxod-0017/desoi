@@ -1,8 +1,11 @@
 import React from 'react'
+import Bag from '../components/Bag'
 
 function BagPage() {
   return (
-    <div>BagPage</div>
+    <div>
+      <Bag/>
+    </div>
   )
 }
 
